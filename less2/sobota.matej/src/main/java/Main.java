@@ -7,5 +7,3 @@ public class Main {
     }
 
 }
-//na domacom kompe hello world
-//zalozit www.github.com
