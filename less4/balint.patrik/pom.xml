@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sk.katrak.miroslav.gl.group2</groupId>
+    <groupId>sk.balint.patrik.gl.group2</groupId>
     <artifactId>less4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
