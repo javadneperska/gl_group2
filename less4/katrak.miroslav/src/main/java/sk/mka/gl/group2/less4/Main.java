@@ -15,7 +15,6 @@ public class Main {
             System.out.println(false);
         }
 
-
         //this is modulo example
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
@@ -23,5 +22,9 @@ public class Main {
             } else
                 System.out.println("i: " + i + " je neparne");
         }
+
+        int i = -1234;
+        System.out.format("i = %-12dahoj%n", i);
+
     }
 }
