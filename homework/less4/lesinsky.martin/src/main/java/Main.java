@@ -23,6 +23,7 @@ public class Main {
             case 3:
                 third();
             default:
+                //ENGLISH please
                 System.out.println("Nevybralis ste ani jednu z ponukanych moznosti");
                 System.out.println("program sa ukonci...");
                 break;
