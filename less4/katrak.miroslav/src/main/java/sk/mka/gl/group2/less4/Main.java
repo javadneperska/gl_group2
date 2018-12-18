@@ -1,10 +1,13 @@
 package sk.mka.gl.group2.less4;
 
+
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        int x = 3;
+        /*int x = 3;
         int y = 7;
         int z = -1;
 
@@ -24,7 +27,15 @@ public class Main {
         }
 
         int i = -1234;
-        System.out.format("i = %-12dahoj%n", i);
+        System.out.format("i = %-12ahoj%n", i);*/
+
+
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("enter an integer");
+        int myint = keyboard.nextInt();
+        System.out.println("myint: " + myint);
+
+
 
     }
 }
