@@ -9,5 +9,12 @@ public class Main {
         }else{
             System.out.println("False");
         }
+
+        for (int i = 0; i < ; i++) {
+            if {i % 2 == 0){
+                System.out.println("i: " + "je parne.");
+            } else
+                System.out.println("i " + i + "je neparne.");
+        }
     }
 }
