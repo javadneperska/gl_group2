@@ -13,10 +13,15 @@ public class Main {
 
         //Alt shift m
         //Alt shif i
+
+
+
     }
+
 
     private static void formatLine(String ahoj) {
         System.out.format("%6s%n", ahoj);
     }
+
 
 }
