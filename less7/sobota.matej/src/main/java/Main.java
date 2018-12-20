@@ -20,5 +20,32 @@ public class Main {
         }else{
             w = 1;
         }
+        System.out.println("now methods");
+        breaker();
+        continuer();
+
     }
+
+    public static int breaker(){
+        for (int i = 0; i < 5; i++) {
+            if (i == 1){
+                break;
+            }
+            System.out.println("i: "+ i);
+        }
+        return 1;
+    }
+
+    public static int continuer(){
+        for (int i = 0; i < 5; i++) {
+            if (i == 1){
+                continue;
+            }
+            System.out.println("i: "+ i);
+        }
+        return 1;
+
+    }
+
+
 }
