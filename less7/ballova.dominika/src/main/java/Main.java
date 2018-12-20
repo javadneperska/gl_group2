@@ -28,7 +28,7 @@ public class Main {
 
 
 
-
+/*
 
     public static void main(String[] args) {
 
@@ -66,5 +66,5 @@ public class Main {
 // ak mam 3 mozne nadobudnute stavy tak pisem switch ... break musi byt po kazdom moznom case ...
 
 
-    }
+    }*/
 }
