@@ -7,7 +7,7 @@ public class Main {
 
         //with for
         while (true) {
-            
+
             System.out.print("Enter the number: ");
             int number = keyboard.nextInt();
             if (number == 0){
