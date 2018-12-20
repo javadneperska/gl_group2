@@ -7,7 +7,7 @@ import java.util.Scanner;
                 for (int i = 0; i < 2; i++) {
                     System.out.print("Enter the number: ");
                     Scanner keyboard = new Scanner(System.in);
-                    int firstint = keyboard.nextInt();
+                    int firstNumber = keyboard.nextInt();
                     if (firstint % 2 == 0) {
                         System.out.println("The number " + firstint + " is even." + "\n");
                     } else {
