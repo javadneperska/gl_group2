@@ -1,41 +1,31 @@
 package sk.mka.gl.group2.less4;
 
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
 
-        /*int x = 3;
-        int y = 7;
-        int z = -1;
+        boolean x = true;
+        int y = 0;
+        int z = 1;
 
-        //this is example of skrateny logicky sucin
-        if (x == 3 && y == 7 && z == 0) {
-            System.out.println(true);
+        if (x == true) {
+            System.out.println("x: " + x);
+            y = -1;
         } else {
-            System.out.println(false);
+            System.out.println("x: " + x);
+            z = -1;
         }
 
-        //this is modulo example
-        for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0) {
-                System.out.println("i: " + i + " je parne");
-            } else
-                System.out.println("i: " + i + " je neparne");
+//        1.
+        int w = (x == true) ? 2 : 1;
+
+//        2.
+        if (x == true) {
+            w = 2;
+        } else {
+            w = 1;
         }
-
-        int i = -1234;
-        System.out.format("i = %-12ahoj%n", i);*/
-
-
-        Scanner keyboard = new Scanner(System.in);
-        System.out.println("enter an integer");
-        int myint = keyboard.nextInt();
-        System.out.println("myint: " + myint);
-
-
-
     }
+
 }
