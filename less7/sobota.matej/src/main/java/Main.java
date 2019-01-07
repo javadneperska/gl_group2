@@ -1,51 +1,18 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+
+
+
 public class Main {
-    public static void main(String[] args) {
-        boolean x = true;
-        int y = 0;
-        int z = 1;
-
-        if (x == true){
-            System.out.println("x: "+ x);
-            y = -1;
-        }else{
-            System.out.println("y: " + y);
-            z = -1;
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new File("text.csv"));
+        scanner.useDelimiter(",");
+        while(scanner.hasNext()){
+            System.out.print(scanner.next()+"|");
         }
-        //1.
-        int w = (x == true) ? 2 : 1;
-
-        //2.
-        if (x == true){
-            w = 2;
-        }else{
-            w = 1;
-        }
-        System.out.println("now methods");
-        breaker();
-        continuer();
-
+        scanner.close();
     }
 
-    public static int breaker(){
-        for (int i = 0; i < 5; i++) {
-            if (i == 1){
-                break;
-            }
-            System.out.println("i: "+ i);
-        }
-        return 1;
-    }
-
-    public static int continuer(){
-        for (int i = 0; i < 5; i++) {
-            if (i == 1){
-                continue;
-            }
-            System.out.println("i: "+ i);
-        }
-        return 1;
-
-    }
-
-
+//    program ktory z externaho suboru nacita cisla (min 10 )v formate csv nasledne ich vypise scita ich vynasobi a zisti najvecsie a najmensie
 }
