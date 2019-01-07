@@ -1,30 +1,25 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        boolean x = true;
-        int y = 0;
-        int z = 1;
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int aa = reader.nextInt();
+        System.out.println("Enter second number: ");
+        int bb = reader.nextInt();
 
-        if (x == true){
-            System.out.println("x: "+ x);
-            y = -1;
-        }else{
-            System.out.println("y: " + y);
-            z = -1;
-        }
-        //1.
-        int w = (x == true) ? 2 : 1;
+        int a = 1;
+        int b = 2;
 
-        //2.
-        if (x == true){
-            w = 2;
-        }else{
-            w = 1;
-        }
-        System.out.println("now methods");
-        breaker();
-        continuer();
+        System.out.println("Sum of numbers is: " + (aa + bb + a + b));
+
+
 
     }
+
+
+//    program ktory z externaho suboru nacita cisla (min 10 )v formate csv nasledne ich vypise scita ich vynasobi a zisti najvecsie a najmensie
+
 
     public static int breaker(){
         for (int i = 0; i < 5; i++) {
