@@ -35,6 +35,7 @@ public class Main {
         }
         scanner.close();
 
+        System.out.println("");
         float sum = 0;
         for (float value : numbers) {
             sum += value;
