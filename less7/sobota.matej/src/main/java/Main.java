@@ -43,13 +43,14 @@ public class Main {
 
         float mul = 1;
         for (float value : numbers) {
-            mul = mul*value;
+            mul = mul * value;
         }
         System.out.println("Their multiple is: " + mul);
 
         System.out.println("Max value is : " + max);
         System.out.println("Min value is : " + min);
+        }
     }
 
 //    program ktory z externaho suboru nacita cisla (min 10 )v formate csv nasledne ich vypise scita ich vynasobi a zisti najvecsie a najmensie
-}
+
