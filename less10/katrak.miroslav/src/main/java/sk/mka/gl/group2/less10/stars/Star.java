@@ -1,4 +1,4 @@
-package sk.mka.gl.group2.less10;
+package sk.mka.gl.group2.less10.stars;
 
 public class Star {
 

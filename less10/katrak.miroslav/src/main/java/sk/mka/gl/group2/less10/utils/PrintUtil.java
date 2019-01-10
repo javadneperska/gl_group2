@@ -1,6 +1,6 @@
-package sk.mka.gl.group2.less10;
+package sk.mka.gl.group2.less10.utils;
 
-public class Util {
+public class PrintUtil {
 
     public static void printValue(String s) {
         System.out.println(s);
