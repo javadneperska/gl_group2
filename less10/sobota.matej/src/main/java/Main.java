@@ -11,9 +11,10 @@ public class Main {
             System.out.println("Please enter second number: ");
             int second = reader.nextInt();
 
-            
+            System.out.println(max(first, second));
 
-
+            System.out.println("Do you want to compare two numbers? [Y/N]: ");
+            String operation = reader.nextLine();
         }
 
 
