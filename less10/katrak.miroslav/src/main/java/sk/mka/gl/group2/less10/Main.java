@@ -8,5 +8,4 @@ public class Main {
 
         Util.printValue("som_hviezda");
     }
-
 }
