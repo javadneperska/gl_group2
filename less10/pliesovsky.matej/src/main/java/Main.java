@@ -34,7 +34,6 @@ class IntCompare {
         else
             System.out.println("Both the strings are equal.");
 
-
         }
     }
 
