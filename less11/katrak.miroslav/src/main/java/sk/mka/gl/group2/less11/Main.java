@@ -30,26 +30,3 @@ public class Main {
         return sumB;
     }
 }
-
-/*
-    List<String> arrayList = new ArrayList();
-        arrayList.add("a");
-                arrayList.add("b");
-                arrayList.add("c");*/
-
-        /*for (String x: arrayList) {
-            arrayList.remove(x);
-        }*/
-
-// Iterator.remove()
-       /* Iterator itr = arrayList.iterator();
-        while (itr.hasNext()) {
-            String nextValue = (String)itr.next();
-            System.out.println("nextValue: " + nextValue);
-            itr.remove();
-        }
-
-
-        System.out.println("Modified ArrayList : "
-                + arrayList);*/
-
