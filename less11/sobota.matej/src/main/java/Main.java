@@ -1,3 +1,4 @@
+import javax.rmi.CORBA.Util;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -12,8 +13,7 @@ public class Main {
             c[i] = a[i] + b[i];
         }
 
-        String s = Arrays.toString(c);
-        System.out.println("pole: " + s);
+        Utils.printArray(c);
 
 
 
