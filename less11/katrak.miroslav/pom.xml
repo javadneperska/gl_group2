@@ -8,5 +8,11 @@
     <artifactId>less11</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>sk.katrak.miroslav.gl.group2</groupId>
+            <artifactId>less10</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
