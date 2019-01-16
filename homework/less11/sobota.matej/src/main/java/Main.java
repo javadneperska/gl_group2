@@ -9,7 +9,6 @@ public class Main {
         int[] b = new int[6];
 
 
-
         Scanner scanner = new Scanner(new File("a.csv"));
         scanner.useDelimiter(",");
         for (int i = 0; i < 6; i++) {
@@ -25,24 +24,21 @@ public class Main {
         scanner1.close();
 
 
-
-
+        Utils.printArray("before sort a", a);
         Arrays.sort(a);
         Utils.printArray("after sort a", a);
         int sumA = sumArray(a);
-        Utils.printArray("po a", a );
         System.out.println("sumA: " + sumA);
 
 
-
+        Utils.printArray("before sort b", b);
         Arrays.sort(b);
         Utils.printArray("after sort b", b);
         int sumB = sumArray(b);
-        Utils.printArray("po b", b );
+        Utils.printArray("po b", b);
 
-
-        System.out.println("sum_together: " + (sumA + sumB));
     }
+
 
     private static int sumArray(int[] b) {
         int sumB = 0;
@@ -50,4 +46,5 @@ public class Main {
             sumB += hodnota;
         }
         return sumB;
+}
 }
