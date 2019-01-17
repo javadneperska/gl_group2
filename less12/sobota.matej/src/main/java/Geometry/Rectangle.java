@@ -13,6 +13,15 @@ public class Rectangle {
         this.height = height;
     }
 
+    public Rectangle(Rectangle rectangle) {
+        this(rectangle.width, rectangle.height);
+    }
+
+
+
+
+
+
     public double getWidth() {
         return width;
     }
