@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         Rectangle r = new Rectangle();
-        r.setWidth(1);
-        r.setHeight(1);
+        System.out.println("r_height: " + r.getHeight());
+        System.out.println("r_width: " + r.getWidth());
 
         Rectangle square = new Rectangle(r);
         System.out.println("height: " + square.getHeight());
