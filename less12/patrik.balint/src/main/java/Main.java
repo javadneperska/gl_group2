@@ -1,9 +1,18 @@
+import geometric.Rectangle;
+
 public class Main {
     public static void main(String[] args) {
+        // rectangle stuff
+        Rectangle r = new Rectangle();
+        r.setWidth(1);
+        r.setHeight(1);
 
-        Person m = new Person();
-        m.setFirstName("Miroslav");
-        m.setLastName("Stastny");
+        Rectangle square = new Rectangle(r);
+        System.out.println("Height: " + square.getHeight());
+        System.out.println("Width: " + square.getWidth());
+
+        // person stuff here
+        Person m = new Person("Miroslav", "Stastny");
 
         Person yM = new Person();
         yM.setFirstName("Miroslav");
