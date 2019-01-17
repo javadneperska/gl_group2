@@ -12,6 +12,10 @@ public class Main {
         youngMiro.setFirstName("Miroslav");
         youngMiro.setLastName("Katrak");
 
+        PersonUtil.printPerson(miro);
+        PersonUtil.printPerson(youngMiro);
+
+
 
     }
 }
