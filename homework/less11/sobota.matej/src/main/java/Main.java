@@ -7,19 +7,22 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         int[] a = new int[6];
         int[] b = new int[6];
-
+        int i = 0;
 
         Scanner scanner = new Scanner(new File("a.csv"));
         scanner.useDelimiter(",");
-        for (int i = 0; i < 6; i++) {
+        while(scanner.hasNext()){
             a[i] = Integer.parseInt(scanner.next());
+            i++;
         }
         scanner.close();
 
+        i = 0;
         Scanner scanner1 = new Scanner(new File("b.csv"));
         scanner1.useDelimiter(",");
-        for (int i = 0; i < 6; i++) {
+        while(scanner1.hasNext()){
             b[i] = Integer.parseInt(scanner1.next());
+            i++;
         }
         scanner1.close();
 
@@ -35,7 +38,8 @@ public class Main {
         Arrays.sort(b);
         Utils.printArray("after sort b", b);
         int sumB = sumArray(b);
-        Utils.printArray("po b", b);
+        System.out.println("sumB: " + sumB);
+
 
     }
 
