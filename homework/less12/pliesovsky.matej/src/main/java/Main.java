@@ -1,9 +1,7 @@
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.List;
 
-import static java.nio.charset.StandardCharsets.*;
+//import Person;
 
 public class Main {
 
@@ -12,16 +10,20 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 //
-        File file = new File("src/main/resources/listOfP.csv");
-        List<String> lines = Files.readAllLines(file.toPath(), UTF_8);
-        for (String line : lines) {
-            String[] array = line.split(";");
-            System.out.println(array[array.length - 1]);
-            System.out.println(" ");
+        //Person student = new Person();
+        CSVReader newCSV = new CSVReader();
+
+        List<Person> people = CSVReader.readPeople();
+        for (Person person : people) {
+            if (person.isStudent()) {
+                System.out.println(person);
+            }
+
         }
     }
-}
 
+
+}
 
 
 /*Z csv zoznam studentov : meno, priezvisko, ulica, cislo domu, mesto, rodne cislo, pohlavie
