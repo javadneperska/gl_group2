@@ -1,7 +1,6 @@
-package sk.mka.gl.group2.less12.geomethry;
+package geometry;
 
 public class Rectangle {
-
     private double width;
     private double height;
 
@@ -14,8 +13,13 @@ public class Rectangle {
         this.height = height;
     }
 
-    public Rectangle(Rectangle rectangle){
+    public Rectangle(Rectangle rectangle) {
         this(rectangle.width, rectangle.height);
+    }
+
+// metoda na vypocet obsahu rectangla
+    public double contents(){
+        return this.width * this.height;
     }
 
     public double getWidth() {
