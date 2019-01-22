@@ -6,18 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //3 times rectangle
-//        1.
         Rectangle a = new Rectangle();
-        a.setWidth(3);
-        a.setHeight(4);
+        a.setWidth(-3);
+        a.setHeight(-4);
         a.printRectangle();
 
-//        2.
         Rectangle b = new Rectangle(8, 9);
         b.printRectangle();
 
-        //3.
         Rectangle c = new Rectangle(10, 12);
         c.printRectangle();
 
