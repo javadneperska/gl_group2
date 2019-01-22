@@ -5,9 +5,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        FileSearcher.setFileFormat("csv");
-        ArrayList<String> fileList = FileSearcher.getFileList();
-        FileReader fileReader = new FileReader(",");
+        FileSearcher.setFileFormat("csv"); // zadas format file, ktory chces vyhladat ..
+        ArrayList<String> fileList = FileSearcher.getFileList();  // dostanes ten zoznam filov s formatom ktory si zadal
+        FileReader fileReader = new FileReader(",");  // instancna metoda ...
         for (String file : fileList) {
             ArrayList<double[]> digits_pairs = fileReader.readFile(file);
             if (digits_pairs == null){
