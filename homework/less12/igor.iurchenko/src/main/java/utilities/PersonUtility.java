@@ -10,7 +10,7 @@ public class PersonUtility {
 
     public static boolean isMale(String rodneNumber) {
         int thirdNumber = Integer.parseInt(rodneNumber.substring(2, 3));
-        return (thirdNumber == 5 || thirdNumber == 6);
+        return (thirdNumber > 1);
     }
 
     public static int age(String bornNumber) throws ParseException {
