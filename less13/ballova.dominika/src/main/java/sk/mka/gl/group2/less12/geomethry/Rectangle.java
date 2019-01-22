@@ -6,7 +6,6 @@ public class Rectangle {
     private double height;
 
     public Rectangle() {
-        this(1,1);
     }
 
     public Rectangle(double width, double height) {

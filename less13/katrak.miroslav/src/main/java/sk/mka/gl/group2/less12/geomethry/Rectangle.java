@@ -5,8 +5,9 @@ public class Rectangle {
     private double width;
     private double height;
 
+
     public Rectangle() {
-        this(1,1);
+        this(1, 1);
     }
 
     public Rectangle(double width, double height) {
@@ -14,9 +15,14 @@ public class Rectangle {
         this.height = height;
     }
 
-    public Rectangle(Rectangle rectangle){
+    public Rectangle(Rectangle rectangle) {
         this(rectangle.width, rectangle.height);
     }
+
+    public double contents() {
+        return this.width * this.height;
+    }
+
 
     public double getWidth() {
         return width;
