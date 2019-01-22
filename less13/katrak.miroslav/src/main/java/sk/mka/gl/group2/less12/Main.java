@@ -21,6 +21,8 @@ public class Main {
         Rectangle c = new Rectangle(10, 12);
         c.printRectangle();
 
+        System.out.println("number of rectangle is: " + Rectangle.countRectangle);
+
 
        /* Rectangle r = new Rectangle();
         System.out.println("r_height: " + r.getHeight());

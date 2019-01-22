@@ -2,6 +2,8 @@ package sk.mka.gl.group2.less12.geomethry;
 
 public class Rectangle {
 
+    public static int countRectangle = 0;
+
     private double width;
     private double height;
 
@@ -10,6 +12,7 @@ public class Rectangle {
     }
 
     public Rectangle(double width, double height) {
+        Rectangle.countRectangle++;
         this.width = width;
         this.height = height;
     }
