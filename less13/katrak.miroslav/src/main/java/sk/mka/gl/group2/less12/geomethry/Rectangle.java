@@ -5,7 +5,6 @@ public class Rectangle {
     private double width;
     private double height;
 
-
     public Rectangle() {
         this(1, 1);
     }
@@ -21,6 +20,19 @@ public class Rectangle {
 
     public double contents() {
         return this.width * this.height;
+    }
+
+    public double circumference() {
+        return 2 * (this.width * this.height);
+    }
+
+
+    public void printRectangle() {
+        System.out.println("width: " + this.width);
+        System.out.println("height: " + this.height);
+        System.out.println("contents is: " + this.contents());
+        System.out.println("circumference is: " + this.circumference());
+        System.out.println("***********");
     }
 
 
