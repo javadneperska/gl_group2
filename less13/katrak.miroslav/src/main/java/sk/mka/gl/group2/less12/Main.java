@@ -11,12 +11,15 @@ public class Main {
         Rectangle a = new Rectangle();
         a.setWidth(3);
         a.setHeight(4);
+        System.out.println("a_contents: " + a.contents());
 
 //        2.
         Rectangle b = new Rectangle(8, 9);
+        System.out.println("b_contents: " + b.contents());
 
         //3.
         Rectangle c = new Rectangle(10, 12);
+        System.out.println("c_contents: " + c.contents());
 
 
        /* Rectangle r = new Rectangle();
