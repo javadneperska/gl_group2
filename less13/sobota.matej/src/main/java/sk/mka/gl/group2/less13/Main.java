@@ -9,17 +9,19 @@ public class Main {
 
         Rectangle a = new Rectangle();
         a.setHeight(3);
-        a.setWidth(3);
+        a.setWidth(4);
 
         Rectangle b = new Rectangle(8,9);
 
         Rectangle c = new Rectangle(10, 12);
 
 
-        System.out.println("Obsah je: " + a.contents());
-        System.out.println("Obsah je: " + b.contents());
-        System.out.println("Obsah je: " + c.contents());
+        a.printContent();
+        b.printContent();
+        c.printContent();
 
+        System.out.println("Contents together: " + (a.contents()+b.contents()+c.contents()));
+        System.out.println("Circumferences togenher: " + (a.circumference()+b.circumference()+c.circumference()));
 
 
 //
