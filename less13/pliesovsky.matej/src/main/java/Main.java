@@ -18,7 +18,12 @@ public class Main {
         Rectangle c = new Rectangle(10,12);
         System.out.println("contents:" + c.contents());
 
+        a.printContent();
+        b.printContent();
+        c.printContent();
 
+        System.out.println("Contents together: " + (a.contents()+b.contents()+c.contents()));
+        System.out.println("Circumferences togenher: " + (a.circumference()+b.circumference()+c.circumference()));
         /*
         Rectangle r = new Rectangle();
         System.out.println("height: " + r.getHeight());

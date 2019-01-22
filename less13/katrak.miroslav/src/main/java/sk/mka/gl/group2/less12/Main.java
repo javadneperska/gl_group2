@@ -11,15 +11,17 @@ public class Main {
         Rectangle a = new Rectangle();
         a.setWidth(3);
         a.setHeight(4);
-        System.out.println("a_contents: " + a.contents());
+        a.printRectangle();
 
 //        2.
         Rectangle b = new Rectangle(8, 9);
-        System.out.println("b_contents: " + b.contents());
+        b.printRectangle();
 
         //3.
         Rectangle c = new Rectangle(10, 12);
-        System.out.println("c_contents: " + c.contents());
+        c.printRectangle();
+
+        System.out.println("number of rectangle is: " + Rectangle.countRectangle);
 
 
        /* Rectangle r = new Rectangle();
@@ -41,7 +43,6 @@ public class Main {
 
         PersonUtil.printPerson(m);
         PersonUtil.printPerson(ym);*/
-
-
     }
+
 }
