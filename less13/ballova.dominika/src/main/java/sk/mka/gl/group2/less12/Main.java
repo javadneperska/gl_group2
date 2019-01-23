@@ -11,13 +11,17 @@ public class Main {
         Rectangle a = new Rectangle();
         a.setWidth(3);
         a.setHeight(4);
+        a.printRectangle();
 
 //        2.
         Rectangle b = new Rectangle(8, 9);
+        b.printRectangle();
 
         //3.
         Rectangle c = new Rectangle(10, 12);
+        c.printRectangle();
 
+        System.out.println("number of rectangle is: " + Rectangle.countRectangle);
 
        /* Rectangle r = new Rectangle();
         System.out.println("r_height: " + r.getHeight());
@@ -33,7 +37,6 @@ public class Main {
         Person ym = new Person("Miroslav", "Katrak");
         PersonUtil.printPerson(m);
         PersonUtil.printPerson(ym);*/
-
-
     }
+
 }
