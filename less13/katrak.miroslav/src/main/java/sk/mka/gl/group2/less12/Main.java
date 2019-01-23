@@ -6,7 +6,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Rectangle r = new Rectangle();
+        Rectangle a = new Rectangle();
+        a.setWidth(-3);
+        a.setHeight(-4);
+        a.printRectangle();
+
+        Rectangle b = new Rectangle(8, 9);
+        b.printRectangle();
+
+        Rectangle c = new Rectangle(10, 12);
+        c.printRectangle();
+
+        System.out.println("number of rectangle is: " + Rectangle.countRectangle);
+
+
+       /* Rectangle r = new Rectangle();
         System.out.println("r_height: " + r.getHeight());
         System.out.println("r_width: " + r.getWidth());
 
@@ -24,9 +38,7 @@ public class Main {
         Person ym = new Person("Miroslav", "Katrak");
 
         PersonUtil.printPerson(m);
-        PersonUtil.printPerson(ym);
-
-
-
+        PersonUtil.printPerson(ym);*/
     }
+
 }

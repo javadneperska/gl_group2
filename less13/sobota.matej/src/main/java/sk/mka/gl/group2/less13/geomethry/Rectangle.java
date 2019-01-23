@@ -6,7 +6,6 @@ public class Rectangle {
     private double height;
 
     public Rectangle() {
-        this(1,1);
     }
 
     public Rectangle(double width, double height) {
@@ -33,4 +32,17 @@ public class Rectangle {
     public void setHeight(double height) {
         this.height = height;
     }
+
+    public double contents(){ return this.width*this.height;}
+
+    public double circumference(){return this.width*2 + this.height*2;}
+
+    public void printCircumference(){
+        System.out.println("Rectangle (a=" + this.getHeight() + ",b=" + this.getWidth() + ") obsah: " + this.circumference());
+    }
+
+    public void printContent(){
+        System.out.println("Rectangle (a=" + this.getHeight() + ",b=" + this.getWidth() + ") obsah: " + this.contents());
+    }
+
 }
