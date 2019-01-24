@@ -2,13 +2,17 @@ package sk.mka.gl.group2.less12.geomethry;
 
 public class Rectangle {
 
+    public static int countRectangle = 0;
+
     private double width;
     private double height;
 
     public Rectangle() {
+        this(1, 1);
     }
 
     public Rectangle(double width, double height) {
+        Rectangle.countRectangle++;
         this.width = width;
         this.height = height;
     }
@@ -38,7 +42,7 @@ public class Rectangle {
     public double circumference(){return this.width*2 + this.height*2;}
 
     public void printCircumference(){
-        System.out.println("Rectangle (a=" + this.getHeight() + ",b=" + this.getWidth() + ") obsah: " + this.circumference());
+        System.out.println("Rectangle (a=" + this.getHeight() + ",b=" + this.getWidth() + ") obvod: " + this.circumference());
     }
 
     public void printContent(){
@@ -46,3 +50,5 @@ public class Rectangle {
     }
 
 }
+
+
