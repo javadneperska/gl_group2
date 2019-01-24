@@ -4,11 +4,14 @@ public class Rectangle {
     private double width;
     private double height;
 
+    public static int countRectangle= 0;
+
     public Rectangle() {
         this(1,1);
     }
 
     public Rectangle(double width, double height) {
+        Rectangle.countRectangle++;
         this.width = width;
         this.height = height;
     }
