@@ -24,6 +24,8 @@ public class Main {
 
         System.out.println("Contents together: " + (a.contents()+b.contents()+c.contents()));
         System.out.println("Circumferences togenher: " + (a.circumference()+b.circumference()+c.circumference()));
+
+        System.out.println("Count rectangles:" + Rectangle.countRectangle);
         /*
         Rectangle r = new Rectangle();
         System.out.println("height: " + r.getHeight());
