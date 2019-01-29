@@ -10,10 +10,10 @@ public class Main {
         for (int i = 0; i < fileData.size(); i++) {
             personEms[i] = new PersonEm(fileData.get(i));
         }
-        PersonEm[] personSorter = UtilsE.sortBy(personEms, "stage");
-        UtilsE.printLastNElementsReversed(personSorter, 3);
+        PersonEm[] personSorter = ReadFUtils.sortBy(personEms, "stage");
+        ReadFUtils.printLastNElementsReversed(personSorter, 3);
         StringBuilder dataToWrite = new StringBuilder();
-        for (PersonEm personEm : UtilsE.sortBy(personEms, "surname")) {
+        for (PersonEm personEm : ReadFUtils.sortBy(personEms, "surname")) {
             dataToWrite.append(personEm.toString()).append(System.getProperty("line.separator"));
         }
 
