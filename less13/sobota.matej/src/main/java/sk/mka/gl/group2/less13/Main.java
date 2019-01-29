@@ -24,6 +24,10 @@ public class Main {
         System.out.println("Circumferences togenher: " + (a.circumference()+b.circumference()+c.circumference()));
 
 
+        System.out.println("number of rectangles is " + Rectangle.countRectangle);
+
+
+
 //
 //        //father
 //        Person m = new Person();
