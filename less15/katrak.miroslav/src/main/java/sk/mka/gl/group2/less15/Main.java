@@ -4,6 +4,44 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String csv = "3,5,7,9";
+        final String[] split = csv.split(",");
+
+        String n = "miroslav";
+        final int a1 = n.indexOf('a');
+        System.out.println("a1: " + a1);
+
+        final int a = n.lastIndexOf('a');
+        System.out.println("a: " + a);
+
+        final int i = n.indexOf("l");
+        System.out.println("i: " + i);
+
+        final char c = n.charAt(5);
+        System.out.println("znak na pozicii 5: " + c);
+
+
+        final String substring = n.substring(3, 5);
+        System.out.println("substring: " + substring);
+
+        if(n.startsWith("miro")){
+            System.out.println("zacina s miro");
+        }
+
+        if(n.endsWith("lav")){
+            System.out.println("konci s lav");
+        }
+
+        String firstName = "FirstName";
+        String lastName = "Surname";
+
+        String firstNameSpace = firstName.concat(" ");
+        String wholeName = firstNameSpace.concat(lastName);
+        System.out.println("name: " + wholeName);
+
+
+        String name = firstName + lastName;
+
         String duri = "DURI";
         final String smallDuri = duri.toLowerCase();
         System.out.println("smallDuri: " + smallDuri);
