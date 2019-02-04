@@ -11,7 +11,7 @@ public class Human {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public Human(int j, double v) {
+    public Human() {
     }
 
     public String getFirstName() {
