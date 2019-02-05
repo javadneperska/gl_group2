@@ -2,16 +2,14 @@
 public class Human {
     private String firstName;
     private String lastName;
-    private Date dob;
 
 
     public Human() {
     }
 
-    public Human(String firstName, String lastName, Date dob) {
+    public Human(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.dob = dob;
     }
 
     public String getFirstName() {
@@ -35,17 +33,7 @@ public class Human {
         return "Domi Human{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", date='" + dob + '\'' +
                 '}';
-    }
-
-
-    public Date getDob() {
-        return dob;
-    }
-
-    public void setDob(Date dob) {
-        this.dob = dob;
     }
 
 }
