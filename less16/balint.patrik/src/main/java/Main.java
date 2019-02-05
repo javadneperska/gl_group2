@@ -23,5 +23,12 @@ public class Main {
         System.out.println("First human is: " + human1);
         System.out.println("Second human is: " + human2);
         System.out.println("Third human is: " + human3);
-    }
+
+        System.out.println("*****************************************************");
+
+        Human[] humans = new Human[3];
+        for(int i = 0; i < 2; i++){
+            humans[i] = new Human();
+            }
+        }
 }

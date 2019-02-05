@@ -37,8 +37,8 @@ public class Date {
     public String toString() {
         return "Date{" +
                 "day=" + day +
-                ", year=" + year +
-                ", month='" + month + '\'' +
+                ", month=" + month +
+                ", year='" + year + '\'' +
                 '}';
     }
 }
