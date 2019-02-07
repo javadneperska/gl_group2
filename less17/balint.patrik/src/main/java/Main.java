@@ -2,14 +2,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        Integer[] pole = new Integer[10];
 
-        for(int i = 0; i < pole.length; i++){
-            pole[i] = i+1;
-        }
-        System.out.println(Arrays.toString(pole));
-        */
+        Integer[] pole = {0,1,2,3,4};;
+        System.out.println("Array pred inkrementaciou : " + Arrays.toString(pole));
+        increaseFieldByOne(pole);
+        System.out.println("Array po inkrementacii : " + Arrays.toString(pole));
+
+        System.out.println("************************************");
 
         int x = 5;
         changeValue(x);
@@ -42,5 +41,11 @@ public class Main {
     private static void changeValueInteger(Integer x) {
         x = 6;
         System.out.println("xInte je : " + x);
+    }
+
+    private static void increaseFieldByOne(Integer[] pole) {
+        for (int i = 0; i < pole.length; i++) {
+            pole[i] = pole[i] + 1;
+        }
     }
 }
