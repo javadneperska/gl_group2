@@ -12,6 +12,11 @@ public class Block extends Rectangle {
     }
 
     public double volume() {
-        return this.content() * this.depth;
+        return this.getHeight() * this.getWidth() * this.depth;
+    }
+
+    @Override
+    public double content() {
+        return ((this.getHeight() * this.getWidth() * this.getDepth())*2);
     }
 }
