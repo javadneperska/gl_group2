@@ -1,4 +1,7 @@
-package sk.mka.gl.group2.less18;
+package sk.mka.gl.group2.less18.runner;
+
+import sk.mka.gl.group2.less18.geometry.Block;
+import sk.mka.gl.group2.less18.geometry.Rectangle;
 
 public class Main {
 

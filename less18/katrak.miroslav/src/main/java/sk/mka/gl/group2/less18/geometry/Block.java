@@ -1,4 +1,4 @@
-package sk.mka.gl.group2.less18;
+package sk.mka.gl.group2.less18.geometry;
 
 public class Block extends Rectangle {
     private double depth;
@@ -12,11 +12,11 @@ public class Block extends Rectangle {
     }
 
     public double volume() {
-        return this.getHeight() * this.getWidth() * this.depth;
+        return this.width * this.height * this.depth;
     }
 
     @Override
     public double content() {
-        return ((this.getHeight() * this.getWidth() * this.getDepth())*2);
+        return (this.width * this.height* this.depth *2);
     }
 }

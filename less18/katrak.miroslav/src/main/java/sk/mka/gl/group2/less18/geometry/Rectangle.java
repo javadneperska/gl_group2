@@ -1,8 +1,8 @@
-package sk.mka.gl.group2.less18;
+package sk.mka.gl.group2.less18.geometry;
 
 public class Rectangle {
-    private double width;
-    private double height;
+    protected double width;
+    protected double height;
 
     public double getWidth() {
         return width;
