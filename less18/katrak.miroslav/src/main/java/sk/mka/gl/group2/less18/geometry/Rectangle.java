@@ -4,6 +4,10 @@ public class Rectangle {
     protected double width;
     protected double height;
 
+    public Rectangle() {
+        System.out.println("Rectangle");
+    }
+
     public double getWidth() {
         return width;
     }

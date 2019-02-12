@@ -1,7 +1,12 @@
 package sk.mka.gl.group2.less18.geometry;
 
+
 public class Block extends Rectangle {
     private double depth;
+
+    public Block() {
+        System.out.println("Block");
+    }
 
     public double getDepth() {
         return depth;
