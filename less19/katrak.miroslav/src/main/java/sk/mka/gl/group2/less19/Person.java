@@ -9,7 +9,7 @@ public class Person {
     private String lastName;
     private List<Person> favoritePersons = new ArrayList<Person>();
 
-    private void addFavoritePerson(Person p) {
+    public void addFavoritePerson(Person p) {
         this.favoritePersons.add(p);
     }
 
@@ -35,5 +35,14 @@ public class Person {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }
